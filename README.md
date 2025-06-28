@@ -1,18 +1,19 @@
-## Getting Started
+# 学生管理システム (Student Management System)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+このプロジェクトは、Java のコンソールアプリケーションであり、学生情報を簡単に管理できます。
 
-## Folder Structure
+## 主な機能
+- 学生情報の追加（ID自動割当）
+- 学生情報の編集（ID指定）
+- 学生情報の削除（ID指定）
+- 学生情報の一覧表示
+- 名前・GPAでのソート
+- データのファイル保存・読み込み
 
-The workspace contains two folders by default, where:
+## 技術
+- Java (標準ライブラリのみ使用)
+- ファイル保存: ObjectOutputStream / ObjectInputStream によるシリアライズ
+- データ構造: ArrayList
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 実行方法
+1️⃣ このリポジトリをクローンします:
