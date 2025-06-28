@@ -17,3 +17,21 @@
 
 ## 実行方法
 1️⃣ このリポジトリをクローンします:
+```bash
+git clone https://github.com/Truong135g/-
+```
+
+2️⃣ ソースをコンパイルします:
+```bash
+javac src/*.java
+```
+
+3️⃣ プログラムを実行します:
+```bash
+java -cp src Main
+```
+（または VS Code / Eclipse の実行ボタンを使うこともできます）
+
+
+## 作者
+Truong Ngoc Dan Truong
